@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-3">Survey Questions</h1>
+        </div>
+
+        <h2>About You</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name (Required)</label>
+                <input type="email" class="form-control" id="friendName" aria-describedby="emailHelp" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="picture">Link to Picture (Required)</label>
+                <input type="link" class="form-control" id="picture" placeholder="Link to your Pic">
+            </div>
+
+
+            <h4>Question 1</h4>
+            <p>Do you like golf?</p>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Select an Option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href = "#" value="1">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item" value="2">2</a>
+                    <a class="dropdown-item" value="3">3</a>
+                    <a class="dropdown-item" value="4">4</a>
+                    <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+                </div>
+            </div>
+</body>
+
+</html>
