@@ -9,6 +9,12 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
 
 </head>
@@ -18,7 +24,7 @@
         <div class="jumbotron text-center">
             <h1 class="display-3">Survey Questions</h1>
         </div>
-
+<hr>
         <h2>About You</h2>
         <form>
             <div class="form-group">
@@ -29,23 +35,161 @@
                 <label for="picture">Link to Picture (Required)</label>
                 <input type="link" class="form-control" id="picture" placeholder="Link to your Pic">
             </div>
+        </form>
 
-
-            <h4>Question 1</h4>
-            <p>Do you like golf?</p>
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    Select an Option
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href = "#" value="1">1 (Strongly Disagree)</a>
-                    <a class="dropdown-item" value="2">2</a>
-                    <a class="dropdown-item" value="3">3</a>
-                    <a class="dropdown-item" value="4">4</a>
-                    <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
-                </div>
+        <h4>Question 1</h4>
+        <p>Do you like golf?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
             </div>
+        </div>
+        <h4>Question 2</h4>
+        <p>How do you feel about outdoor activities?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 3</h4>
+        <p>Do you enjoy reading?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 4</h4>
+        <p>Do you think people have to earn their happiness(not a RIGHT to be happy)?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 5</h4>
+        <p>Do you think truth exist without evidence?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 6</h4>
+        <p>Do you feel like we are alone in the universe?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 7</h4>
+        <p>Do you think a parallel universe exists?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 8</h4>
+        <p>Do you think humanity is heading in the right direction?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 9</h4>
+        <p>Do you believe in free will(the absence of fate)?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <h4>Question 10</h4>
+        <p>Do you feel soulmates exist?</p>
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="question1" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Select an Option
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" value="1">1 (Strongly Disagree)</a>
+                <a class="dropdown-item" value="2">2</a>
+                <a class="dropdown-item" value="3">3</a>
+                <a class="dropdown-item" value="4">4</a>
+                <a class="dropdown-item" value="5">5 (Strongly Agree)</a>
+            </div>
+        </div>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
 </body>
 
 </html>
