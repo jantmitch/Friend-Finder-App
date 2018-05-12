@@ -42,7 +42,7 @@
             <p>Do you like golf?</p>
 
             <select class="chosen-select" id="q1">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -54,7 +54,7 @@
             <h4>Question 2</h4>
             <p>How do you feel about outdoor activities?</p>
             <select class="chosen-select" id="q2">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -67,7 +67,7 @@
             <p>Do you enjoy reading?</p>
 
             <select class="chosen-select" id="q3">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -79,7 +79,7 @@
             <h4>Question 4</h4>
             <p>Do you think people have to earn their happiness(not a RIGHT to be happy)?</p>
             <select class="chosen-select" id="q4">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -91,7 +91,7 @@
             <h4>Question 5</h4>
             <p>Do you think truth exist without evidence?</p>
             <select class="chosen-select" id="q5">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -103,7 +103,7 @@
             <h4>Question 6</h4>
             <p>Do you feel like we are alone in the universe?</p>
             <select class="chosen-select" id="q6">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -115,7 +115,7 @@
             <h4>Question 7</h4>
             <p>Do you think a parallel universe exists?</p>
             <select class="chosen-select" id="q7">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -127,7 +127,7 @@
             <h4>Question 8</h4>
             <p>Do you think humanity is heading in the right direction?</p>
             <select class="chosen-select" id="q8">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -139,7 +139,7 @@
             <h4>Question 9</h4>
             <p>Do you believe in free will(the absence of fate)?</p>
             <select class="chosen-select" id="q9">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -151,7 +151,7 @@
             <h4>Question 10</h4>
             <p>Do you feel soulmates exist?</p>
             <select class="chosen-select" id="q10">
-                <option value=""></option>
+                <option value="">Select an option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -171,7 +171,7 @@
             var newFriend = {
                 name: $("#friendName").val().trim(),
                 photo: $("#picture").val().trim(),
-                scores: $(".chosen-select").val().trim()
+                scores: $("#q1").val().trim(), $("#q2").val().trim(),
                 
             };
            
