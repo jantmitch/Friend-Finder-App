@@ -9,8 +9,15 @@ var PORT = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
-require("/app/routing/apiRoutes.js")(app);
-require("/app/routing/htmlRoutes.js")(app);
+var friends = [];
+
+app.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "app/public/home.html"));
+});
+
+app.get("/survey", function (req, res) {
+    res.sendFile(path.join(__dirname, "app/public/survey.html"));
+});
 
 
 
